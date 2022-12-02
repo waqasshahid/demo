@@ -25,7 +25,7 @@ public class NinthSession {
             return i;
         });
 
-        List<String> list = List.of("1", "2", "3");
+        List<String> list = List.of("4", "5", "6");
         System.out.println(list.stream().count());
         list.stream().filter((i) -> {
             return false;
